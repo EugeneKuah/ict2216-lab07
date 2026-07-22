@@ -24,7 +24,7 @@ jobs:
           restore-keys: ${{ runner.os }}-node-modules
 
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm ci
 
       - name: Prepare artifacts
         run: |
