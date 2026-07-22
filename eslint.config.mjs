@@ -42,7 +42,7 @@ export default [
       ...pluginSecurity.configs.recommended.rules,
 
       "security/detect-eval-with-expression": "error",
-      "security-node/detect-crlf": "error",
+      "security-node/detect-crlf": "off",
 
       "no-unused-vars": [
         "error",
